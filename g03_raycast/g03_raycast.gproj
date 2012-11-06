@@ -1,0 +1,24 @@
+<project>
+ <properties autorotation="0" fps="60" scaleMode="5" mouseToTouch="1" iosDevice="0" packageName="com.biorhythmgames.raycast" logicalHeight="480" logicalWidth="320" mouseTouchOrder="0" retinaDisplay="0" touchToMouse="1" assetsOnly="0" orientation="1" architecture="1">
+  <imageScales/>
+ </properties>
+ <folder name="rendering">
+  <file source="rendering/renderer.lua"/>
+ </folder>
+ <folder name="input">
+  <file source="input/input.lua"/>
+ </folder>
+ <folder name="core">
+  <file source="core/boxshape.lua"/>
+  <file source="core/tablex.lua"/>
+  <file source="core/button.lua"/>
+ </folder>
+ <folder name="config">
+  <file source="config/map.lua"/>
+ </folder>
+ <folder name="assets">
+  <file source="assets/textures.png"/>
+ </folder>
+ <file source="raycast.lua"/>
+ <file source="main.lua"/>
+</project>
