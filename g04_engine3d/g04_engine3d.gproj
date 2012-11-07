@@ -1,0 +1,36 @@
+<project>
+ <properties autorotation="0" fps="60" scaleMode="5" mouseToTouch="1" iosDevice="0" packageName="com.biorhythmgames.engine3d" logicalHeight="480" logicalWidth="320" mouseTouchOrder="0" retinaDisplay="0" touchToMouse="1" assetsOnly="0" orientation="1" architecture="1">
+  <imageScales/>
+ </properties>
+ <folder name="config">
+  <file source="config/buttonconfig.lua"/>
+ </folder>
+ <folder name="core">
+  <file source="core/tablex.lua"/>
+  <file source="core/vector.lua"/>
+ </folder>
+ <folder name="data">
+  <file source="data/cubedata.lua"/>
+ </folder>
+ <folder name="engine">
+  <file source="engine/engine.lua"/>
+ </folder>
+ <folder name="objects">
+  <file source="objects/shape3d.lua"/>
+ </folder>
+ <folder name="rendering">
+  <file source="rendering/renderer.lua"/>
+ </folder>
+ <folder name="resources">
+  <file source="resources/arial10.txt"/>
+  <file source="resources/arial10.png"/>
+ </folder>
+ <folder name="shapes">
+  <file source="shapes/lineshape.lua"/>
+  <file source="shapes/boxshape.lua"/>
+ </folder>
+ <folder name="ui">
+  <file source="ui/button.lua"/>
+ </folder>
+ <file source="main.lua"/>
+</project>
