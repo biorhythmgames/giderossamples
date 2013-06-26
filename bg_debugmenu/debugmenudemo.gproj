@@ -1,0 +1,34 @@
+<project>
+ <properties autorotation="0" encrypt="0" fps="60" scaleMode="6" mouseToTouch="1" iosDevice="0" packageName="com.biorhythmgames.debugdemo" logicalHeight="800" logicalWidth="480" mouseTouchOrder="0" retinaDisplay="0" touchToMouse="1" assetsOnly="0" orientation="0" architecture="1">
+  <imageScales/>
+ </properties>
+ <folder name="config">
+  <file source="config/debugconfig.lua"/>
+ </folder>
+ <folder name="core">
+  <file source="core/tablex.lua"/>
+ </folder>
+ <folder name="debug">
+  <file source="debug/debugmenu.lua"/>
+ </folder>
+ <folder name="font">
+  <file source="font/consolas14.txt"/>
+  <file source="font/consolas14.png"/>
+ </folder>
+ <folder name="resources">
+  <file source="resources/icon-128.png"/>
+  <file source="resources/bglogo.png"/>
+ </folder>
+ <folder name="scenemanager">
+  <file source="scenemanager/scenemanager.lua"/>
+  <file source="scenemanager/easing.lua"/>
+ </folder>
+ <folder name="scenes">
+  <file source="scenes/demo_scene.lua"/>
+  <file source="scenes/blank_scene.lua"/>
+ </folder>
+ <folder name="shake">
+  <file source="shake/shakehelper.lua"/>
+ </folder>
+ <file source="main.lua"/>
+</project>
