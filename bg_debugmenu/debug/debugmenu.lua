@@ -213,7 +213,7 @@ function DebugMenu:registerCommand(command, font, params, parent)
 	button:addEventListener(Event.MOUSE_DOWN, function(event)
 			-- ignore condition
 			if self.state == States.Hidden or
-					(button.buttonType == ButtonTypes.Push and not button.state) or
+					not button.state or
 					not button:hitTestPoint(event.x, event.y) then
 				return
 			end
@@ -235,7 +235,7 @@ function DebugMenu:registerCommand(command, font, params, parent)
 	button:addEventListener(Event.MOUSE_UP, function(event)
 			-- ignore conditions
 			if self.state == States.Hidden or
-					(button.buttonType == ButtonTypes.Push and not button.state) or 
+					not button.state or 
 					button.buttonType == ButtonTypes.Toggle or
 					not button:hitTestPoint(event.x, event.y) then
 				return
@@ -292,7 +292,7 @@ function DebugMenu:updateButtonState(params)
 		end
 
 		-- refresh colour
-		local rgb = toggleButton and SwitchTransforms[button.toggleState] or 
+		local rgb = (toggleButton and buttonState) and SwitchTransforms[button.toggleState] or 
 						buttonState and ColourTransforms.normal or 
 						ColourTransforms.disabled
 
