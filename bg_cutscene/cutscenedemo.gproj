@@ -1,0 +1,35 @@
+<project>
+ <properties autorotation="0" encrypt="0" fps="60" scaleMode="6" mouseToTouch="1" iosDevice="0" packageName="com.biorhythmgames.cutscene" logicalHeight="800" logicalWidth="480" mouseTouchOrder="0" retinaDisplay="0" touchToMouse="1" assetsOnly="0" orientation="0" architecture="1">
+  <imageScales/>
+ </properties>
+ <folder name="config">
+  <folder name="cutscenes">
+   <file source="config/cutscenes/first_cutscene.lua"/>
+   <file source="config/cutscenes/second_cutscene.lua"/>
+  </folder>
+  <file source="config/cutsceneconfig.lua"/>
+ </folder>
+ <folder name="core">
+  <file source="core/tablex.lua"/>
+ </folder>
+ <folder name="font">
+  <file source="font/consolas18.txt"/>
+  <file source="font/consolas18.png"/>
+ </folder>
+ <folder name="resources">
+  <file source="resources/bglogo.png"/>
+ </folder>
+ <folder name="scenemanager">
+  <file source="scenemanager/scenemanager.lua"/>
+  <file source="scenemanager/easing.lua"/>
+ </folder>
+ <folder name="scenes">
+  <file source="scenes/cutscene_scene.lua"/>
+  <file source="scenes/blank_scene.lua"/>
+ </folder>
+ <folder name="ui">
+  <file source="ui/rect.lua"/>
+  <file source="ui/line.lua"/>
+ </folder>
+ <file source="main.lua"/>
+</project>
